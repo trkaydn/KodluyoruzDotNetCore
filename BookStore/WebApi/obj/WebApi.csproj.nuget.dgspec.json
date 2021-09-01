@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\webapi\\WebApi.csproj": {}
+    "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\webapi\\WebApi.csproj": {
+    "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\webapi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\webapi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Tarik Aydin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\webapi\\obj\\",
+        "outputPath": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tarik Aydin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.6, )"
