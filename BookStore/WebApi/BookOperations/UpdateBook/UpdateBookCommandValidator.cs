@@ -8,7 +8,7 @@ namespace WebApi.BookOperations.UpdateBook
         public UpdateBookCommandValidator()
         {
             RuleFor(command => command.BookId).NotEmpty().GreaterThan(0);
-            RuleFor(command => command.Model.Title).NotEmpty().MinimumLength(3);
+            RuleFor(command => command.Model.Title).NotEmpty().MinimumLength(4);
             RuleFor(command => command.Model.GenreId).NotEmpty().GreaterThan(0);
         }
     }
