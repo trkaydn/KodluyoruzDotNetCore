@@ -11,7 +11,6 @@ C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Microso
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\obj\Debug\net5.0\WebApi.csprojAssemblyReference.cache
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\obj\Debug\net5.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfoInputs.cache
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfo.cs
@@ -35,3 +34,5 @@ C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\System.
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\webapi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Tarik Aydin\Desktop\pratikler\BookStore\webapi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
