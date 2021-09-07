@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using System;
 using System.Linq;
-using WebApi.DBOperations;
+using WebApi.DbOperations;
 using WebApi.Entities;
 
 namespace WebApi.Application.AuthorOperations.Commands.CreateAuthor
@@ -10,10 +10,10 @@ namespace WebApi.Application.AuthorOperations.Commands.CreateAuthor
     {
         public CreateAuthorModel Model { get; set; }
 
-        private readonly BookStoreDbContext _dbContext;
+        private readonly IBookStoreDbContext _dbContext;
         private readonly IMapper _mapper;
 
-        public CreateAuthorCommand(BookStoreDbContext dbContext, IMapper mapper)
+        public CreateAuthorCommand(IBookStoreDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
             _mapper = mapper;

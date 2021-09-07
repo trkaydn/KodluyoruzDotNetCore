@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using WebApi.DBOperations;
+using WebApi.DbOperations;
 
 
 namespace WebApi.Application.AuthorOperations.Commands.UpdateAuthor
@@ -10,10 +8,10 @@ namespace WebApi.Application.AuthorOperations.Commands.UpdateAuthor
     public class UpdateAuthorCommand
     {
         public int AuthorId { get; set; }
-        private readonly BookStoreDbContext _dbContext;
+        private readonly IBookStoreDbContext _dbContext;
         public UpdateAuthorModel Model { get; set; }
 
-        public UpdateAuthorCommand(BookStoreDbContext dbContext)
+        public UpdateAuthorCommand(IBookStoreDbContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -21,7 +19,7 @@ namespace WebApi.Application.AuthorOperations.Commands.UpdateAuthor
         {
             var author = _dbContext.Authors.SingleOrDefault(x => x.Id == AuthorId);
             if (author is null)
-                throw new InvalidOperationException("Güncellenecek kitap bulunamadı.");
+                throw new InvalidOperationException("Güncellenecek yazar bulunamadı.");
 
             author.BirthDate = Model.BirthDate != default ? Model.BirthDate : author.BirthDate;
             author.Name = Model.Name != default ? Model.Name : author.Name;

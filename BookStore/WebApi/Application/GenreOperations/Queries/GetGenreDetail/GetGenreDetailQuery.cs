@@ -1,17 +1,17 @@
 ﻿using System;
 using AutoMapper;
 using System.Linq;
-using WebApi.DBOperations;
+using WebApi.DbOperations;
 
 namespace WebApi.Application.GenreOperations.Queries.GetGenreDetail
 {
     public class GetGenreDetailQuery
     {
         public int GenreId { get; set; }
-        public readonly BookStoreDbContext _context;
+        public readonly IBookStoreDbContext _context;
         private readonly IMapper _mapper;
 
-        public GetGenreDetailQuery(BookStoreDbContext context, IMapper mapper)
+        public GetGenreDetailQuery(IBookStoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
@@ -21,7 +21,7 @@ namespace WebApi.Application.GenreOperations.Queries.GetGenreDetail
         {
             var genre = _context.Genres.SingleOrDefault(x => x.Id==GenreId && x.IsActive);
             if (genre is null)
-                throw new InvalidOperationException("Kitap türü bulunamadı!");
+                throw new InvalidOperationException("Kitap türü bulunamadı");
 
             return _mapper.Map<GenreDetailViewModel>(genre);
         }

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
-using WebApi.DBOperations;
-using WebApi.Entities;
+using WebApi.DbOperations;
 
 namespace WebApi.Application.GenreOperations.Commands.UpdateGenre
 {
@@ -9,9 +8,9 @@ namespace WebApi.Application.GenreOperations.Commands.UpdateGenre
     {
         public int GenreId { get; set; }
         public UpdateGenreModel Model { get; set; }
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
 
-        public UpdateGenreCommand(BookStoreDbContext context)
+        public UpdateGenreCommand(IBookStoreDbContext context)
         {
             _context = context;
         }

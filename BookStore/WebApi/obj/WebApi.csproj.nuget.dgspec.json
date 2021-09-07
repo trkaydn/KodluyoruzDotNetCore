@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
+    "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {
+    "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectPath": "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Tarik Aydin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\obj\\",
+        "outputPath": "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tarik Aydin\\AppData\\Roaming\\NuGet\\NuGet.Config",

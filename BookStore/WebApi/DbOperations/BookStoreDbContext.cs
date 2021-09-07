@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using WebApi.DbOperations;
 using WebApi.Entities;
 
 namespace WebApi.DBOperations
 {
-    public class BookStoreDbContext : DbContext
+    public class BookStoreDbContext : DbContext,IBookStoreDbContext
     {
         public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options) : base(options)
         {
@@ -16,5 +17,9 @@ namespace WebApi.DBOperations
 
         public DbSet<Author>Authors { get; set; }
 
+        public override int SaveChanges()
+        {
+            return base.SaveChanges();
+        }
     }
 }

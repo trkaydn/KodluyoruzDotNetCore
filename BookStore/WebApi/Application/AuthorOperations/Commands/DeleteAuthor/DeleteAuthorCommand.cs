@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using WebApi.DBOperations;
+using WebApi.DbOperations;
 
 namespace WebApi.Application.AuthorOperations.Commands.DeleteAuthor
 {
     public class DeleteAuthorCommand
     {
         public int AuthorId { get; set; }
-        private readonly BookStoreDbContext _dbContext;
+        private readonly IBookStoreDbContext _dbContext;
 
-        public DeleteAuthorCommand(BookStoreDbContext dbContext)
+        public DeleteAuthorCommand(IBookStoreDbContext dbContext)
         {
             _dbContext = dbContext;
         }

@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApi.DBOperations;
+using WebApi.DbOperations;
 
 namespace WebApi.Application.BookOperations.Commands.UpdateBook
 {
     public class UpdateBookCommand
     {
         public int BookId { get; set; }
-        private readonly BookStoreDbContext _dbContext;
+        private readonly IBookStoreDbContext _dbContext;
         public UpdateBookModel Model { get; set; }
 
-        public UpdateBookCommand(BookStoreDbContext dbContext)
+        public UpdateBookCommand(IBookStoreDbContext dbContext)
         {
             _dbContext = dbContext;
         }
