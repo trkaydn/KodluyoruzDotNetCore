@@ -19,6 +19,7 @@ namespace WebApi.UnitTests.TestSetup
             Context.AddBooks();
             Context.AddGenres();
             Context.AddAuthors();
+            Context.AddUsers();
             Context.SaveChanges();
 
             Mapper = new MapperConfiguration(cfg => { cfg.AddProfile<MappingProfile>(); }).CreateMapper();

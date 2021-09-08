@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Tarik Aydin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Tarik Aydin\\Desktop\\pratikler\\BookStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tarik Aydin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[10.3.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
