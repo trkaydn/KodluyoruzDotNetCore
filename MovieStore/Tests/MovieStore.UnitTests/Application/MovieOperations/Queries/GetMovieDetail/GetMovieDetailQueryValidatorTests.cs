@@ -12,10 +12,10 @@ namespace MovieStore.UnitTests.Application.MovieOperations.Queries.GetMovieDetai
         [Theory]
         [InlineData(0)]
         [InlineData(-1)]
-        public void WhenMovieIdLessThanOne_Validator_ShouldBeReturnErrors(int bookId)
+        public void WhenMovieIdLessThanOne_Validator_ShouldBeReturnErrors(int movieId)
         {
             GetMovieDetailQuery query = new GetMovieDetailQuery(null, null);
-            query.MovieId = bookId;
+            query.MovieId = movieId;
 
             GetMovieDetailQueryValidator validator = new GetMovieDetailQueryValidator();
             var result = validator.Validate(query);
